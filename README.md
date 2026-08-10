@@ -13,7 +13,7 @@ This project is a Multimodal Retrieval-Augmented Generation (RAG) application. I
 Open **Command Prompt** and move into the project directory:
 
 ```cmd
-cd /d "C:\Personal\Python\Krish Naik Gen AI Bootcamp\Projects\MM_RAG_10082026"
+cd /d "C:\Projects\MM_RAG_10082026"
 ```
 
 List the Python versions available through `uv`:
