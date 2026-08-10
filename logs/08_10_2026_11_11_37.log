@@ -1,0 +1,7 @@
+{"pdf_path": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\parsed_pdf_output", "timestamp": "2026-08-10T05:41:37.138994Z", "level": "info", "event": "pdf_parser_initialized"}
+{"pdf_path": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "timestamp": "2026-08-10T05:41:37.138994Z", "level": "info", "event": "pdf_parsing_started"}
+{"pages": 24, "images": 13, "timestamp": "2026-08-10T05:42:20.425250Z", "level": "info", "event": "pdf_content_extracted"}
+{"tables": 16, "timestamp": "2026-08-10T05:42:21.980397Z", "level": "info", "event": "pdf_tables_extracted"}
+{"documents": 53, "timestamp": "2026-08-10T05:42:21.984971Z", "level": "info", "event": "langchain_documents_created"}
+{"output_dir": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\parsed_pdf_output", "timestamp": "2026-08-10T05:42:22.000969Z", "level": "info", "event": "parser_outputs_saved"}
+{"pdf_path": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "timestamp": "2026-08-10T05:42:22.001970Z", "level": "info", "event": "pdf_parsing_completed"}
