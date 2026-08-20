@@ -1,0 +1,3 @@
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 404 Not Found"
+{"pdf_path": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "error": "Tesseract executable not found at: C:\\Program Files\\Tesseract-OCR\tesseract.exe", "exc_info": true, "timestamp": "2026-08-17T03:48:21.485110Z", "level": "error", "event": "pdf_parser_initialization_failed"}

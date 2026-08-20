@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-data_parsing.py
-
-Class-based PDF parsing pipeline for RAG.
-
-Supports:
-1. PyMuPDF      -> selectable text, page rendering, embedded images
-2. Tesseract    -> OCR for scanned pages and extracted images
-3. pdfplumber   -> table extraction
-4. LangChain    -> Document conversion
-"""
-
 import json
 import sys
 from pathlib import Path
@@ -33,6 +20,7 @@ from logger.custom_logger import CustomLogger
 
 
 logger = CustomLogger().get_logger(__name__)
+
 
 
 class ComplexPDFParser:

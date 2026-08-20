@@ -1,0 +1,65 @@
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 404 Not Found"
+{"pdf_path": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records", "timestamp": "2026-08-17T04:09:35.750941Z", "level": "info", "event": "pdf_parser_initialized"}
+{"pdf_path": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "timestamp": "2026-08-17T04:09:35.753961Z", "level": "info", "event": "pdf_parsing_started"}
+{"pages": 24, "images": 13, "timestamp": "2026-08-17T04:10:19.990362Z", "level": "info", "event": "pdf_content_extracted"}
+{"tables": 16, "timestamp": "2026-08-17T04:10:23.073264Z", "level": "info", "event": "pdf_tables_extracted"}
+{"documents": 53, "timestamp": "2026-08-17T04:10:23.075273Z", "level": "info", "event": "langchain_documents_created"}
+{"output_dir": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records", "timestamp": "2026-08-17T04:10:23.118840Z", "level": "info", "event": "parser_outputs_saved"}
+{"pdf_path": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "timestamp": "2026-08-17T04:10:23.118840Z", "level": "info", "event": "pdf_parsing_completed"}
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: POST https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/scroll "HTTP/1.1 400 Bad Request"
+HTTP Request: POST https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/scroll "HTTP/1.1 400 Bad Request"
+{"pdf_path": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records", "timestamp": "2026-08-17T04:10:39.012883Z", "level": "info", "event": "pdf_parser_initialized"}
+{"pdf_path": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "timestamp": "2026-08-17T04:10:39.014174Z", "level": "info", "event": "pdf_parsing_started"}
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-17T04:11:11.413382Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-17T04:11:11.437693Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points?wait=true "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "source_document_count": 1, "input_document_count": 53, "indexed_document_count": 68, "inserted_point_count": 68, "timestamp": "2026-08-17T04:11:17.717739Z", "level": "info", "event": "document_ingestion_completed"}
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: PUT https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points?wait=true "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "source_document_count": 1, "input_document_count": 53, "indexed_document_count": 68, "inserted_point_count": 68, "timestamp": "2026-08-17T04:11:19.091611Z", "level": "info", "event": "document_ingestion_completed"}
+{"pages": 24, "images": 13, "timestamp": "2026-08-17T04:11:25.220076Z", "level": "info", "event": "pdf_content_extracted"}
+{"tables": 16, "timestamp": "2026-08-17T04:11:28.091862Z", "level": "info", "event": "pdf_tables_extracted"}
+{"documents": 53, "timestamp": "2026-08-17T04:11:28.092862Z", "level": "info", "event": "langchain_documents_created"}
+{"output_dir": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records", "timestamp": "2026-08-17T04:11:28.121911Z", "level": "info", "event": "parser_outputs_saved"}
+{"pdf_path": "C:\\Personal\\Python\\Krish Naik Gen AI Bootcamp\\Projects\\MM_RAG_10082026\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "timestamp": "2026-08-17T04:11:28.123031Z", "level": "info", "event": "pdf_parsing_completed"}
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-documents", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-17T04:12:33.752418Z", "level": "info", "event": "retriever_initialized"}
+{"model_name": "gpt-4.1-mini", "collection_name": "mm-rag-documents", "max_images": 4, "timestamp": "2026-08-17T04:12:33.885408Z", "level": "info", "event": "generation_initialized"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://ab627d8d-598d-4aeb-a82b-1bcd64d88902.eu-central-1-0.aws.cloud.qdrant.io:6333/collections/mm-rag-documents/points/query "HTTP/1.1 200 OK"
+{"query": "What is the contract id for blueleaf retail", "k": 6, "result_count": 6, "timestamp": "2026-08-17T04:12:34.891926Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "What is the contract id for blueleaf retail", "retrieved_documents": 6, "image_count": 2, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-17T04:12:35.486269Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "What is the contract id for blueleaf retail", "retrieved_documents": 6, "used_images": 2, "timestamp": "2026-08-17T04:12:39.403579Z", "level": "info", "event": "generation_completed"}
